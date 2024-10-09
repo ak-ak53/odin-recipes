@@ -1,19 +1,20 @@
+<!-- decendent combinator task  -->
 <!DOCTYPE html>
-<html>
- <head>
-<LINK REL="STYLESHEET" HREF="./index.css">
-    <style>
-p{
-    background-color:green;
-    color: white;
-    font-size: 18px;
-    
-}
-    </style>
- </head>
-<body> 
-    <div id="one"> style me via the external methid!</div>
-    <P id="two">i would like to be styles with the internal method please.</P>
-    <button style="background-color: orange;font-size: 18px;">inline method</button>
-</body>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="index.css">
+    <title>Descendant Combinator</title>
+
+  </head>
+  <body>
+    <div class="container">
+      <p class="text">This should be styled.</p>
+    </div>
+    <p class="text">This should be unstyled.</p>
+    <p class="text">This should be unstyled.</p>
+    <div class="container">
+      <p class="text">This should be styled.</p>
+      <p class="text">This should be styled.</p>
+    </div>
+  </body>
 </html>
