@@ -1,0 +1,82 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ 
+}
+header{
+    display: flex;
+    justify-content: space-between; 
+   background-color: #1f2937;
+   height:100px;
+   padding:0%;
+   margin:0;
+   
+}
+
+.two,.three,.four {
+    
+    
+ 
+  font-size: 18px;
+  color:#e5e7eb
+ 
+  
+  /* Optional: Adjust border if needed */
+     /* Adds space between items */
+}
+.one{
+    font-size: 24px;
+    color: #f9faf8;
+    padding-left: 350px;
+    padding-right: 250px;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+ 
+}
+.four{
+    padding-right: 150px;
+}
+.first,.second{
+    padding-left: 350px;
+}
+main{
+    background-color: #1f2937;
+    margin:0;
+    padding: 0;
+    display: flex;
+   
+}
+.first{
+    margin:0;
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+    padding-right: 50px;
+    height: 50px;
+    width: 400px;
+}
+.second{
+    font-size: 18px;
+  color:#e5e7eb;
+  margin-top: 60px;
+}
+button{
+    background-color: #3882f6;
+    margin-left: 350px;
+    margin-right: 150px;
+
+}
+img{
+     width: 550px;
+    height: 150px;
+     /* padding-left: 350px;  */
+     padding-right: 350px;
+
+}
+.hero{
+    margin-bottom: 80px;
+}
+
