@@ -21,9 +21,6 @@ header{
   font-size: 18px;
   color:#e5e7eb
  
-  
-  /* Optional: Adjust border if needed */
-     /* Adds space between items */
 }
 .one{
     font-size: 24px;
@@ -37,7 +34,7 @@ html, body {
  
 }
 .four{
-    padding-right: 150px;
+    padding-right: 350px;
 }
 .first,.second{
     padding-left: 350px;
@@ -47,6 +44,8 @@ main{
     margin:0;
     padding: 0;
     display: flex;
+    
+  
    
 }
 .first{
@@ -54,7 +53,7 @@ main{
     font-size: 48px;
     color: #f9faf8;
     font-weight: 900;
-    padding-right: 50px;
+    padding-right: 20px;
     height: 50px;
     width: 400px;
 }
@@ -70,7 +69,7 @@ button{
 
 }
 img{
-     width: 550px;
+     width: 250px;
     height: 150px;
      /* padding-left: 350px;  */
      padding-right: 350px;
@@ -80,3 +79,42 @@ img{
     margin-bottom: 80px;
 }
 
+.main2{
+
+ background-color:white;
+ display: flex;
+width:fit-content;
+ align-items: center;
+ flex-direction: column;
+
+
+}
+
+ .white{
+    font-size: 36px;
+    font-weight: 900;
+    
+
+}
+
+.image{
+    display: flex;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-right:0px;
+    width:fit-content;
+
+    
+}
+.frimg{
+    margin-right: 350px;
+    width: 100px;
+    height:100px;
+}
+.firstimg{
+    margin-left: 350px;
+}
+.firstimg,.secimg,.thirdimg,.frimg{
+    width: 100px;
+    height:100px
+}
